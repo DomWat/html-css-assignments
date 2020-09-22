@@ -1,0 +1,86 @@
+.content {
+    background-color: black;
+    position: relative;
+    top: 50px;
+    height: 300px;
+    width: 300px;
+    margin-top: 0;
+    border: solid;
+    border-width: 15px 15px 0 15px;
+    border-color: rgb(0, 128, 117);
+}
+
+.player {
+    position: relative;
+    width: 50px;
+    margin-left: 145px;
+    top: 290px;
+    height: 10px;
+    background-color: rgb(0, 128, 117);
+}
+
+.dot {
+    position: relative;
+    width: 10px;
+    margin-left: 30px;
+    top: 205px;
+    height: 10px;
+    background-color: white;
+}
+
+.dot.left {
+    position: relative;
+    width: 10px;
+    margin-left: 30px;
+    top: 61px;
+    left: 20px;
+    z-index: 1;
+    height: 10px;
+    background-color: white;
+}
+
+.dot.right {
+    position: relative;
+    width: 10px;
+    margin-left: 30px;
+    top: 50px;
+    left: 207px;
+    z-index: 1;
+    height: 10px;
+    background-color: white;
+}
+
+.block {
+    position: relative;
+    width: 45px;
+    top: 0;
+    left: 0;
+    height: 15px;
+    margin: .75px;
+    display: inline-block;
+}
+
+.block.black {
+    background-color: black;
+}
+
+.block.red {
+    background-color: red;
+}
+
+.block.blue {
+    background-color: blue;
+}
+
+.block.green {
+    background-color: green;
+}
+
+.block.yellow {
+    background-color: yellow;
+}
+    
+h1 {
+    color: teal;
+    margin-bottom: 0;
+}
